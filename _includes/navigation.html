@@ -1,0 +1,15 @@
+<nav>
+  <a href="{{ "/" | relative_url }}" class="logo">
+    <strong>sephora</strong> lillian
+  </a>
+
+  <ul class="social">
+    {% for item in site.data.social %}
+      <li>
+        <a href="{{ item.url }}" target="_blank">
+          <img src="{{ site.baseurl }}/assets/images/{{ item.img }}.svg" alt="{{ item.name }}" />
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

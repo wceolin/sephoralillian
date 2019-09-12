@@ -1,0 +1,6 @@
+- name: Sobre
+  link: /sobre.html
+- name: Cursos
+  link: /cursos.html
+- name: Palestras
+  link: /palestras.html

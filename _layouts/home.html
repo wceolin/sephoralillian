@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  {% include head.html %} 
+  <body class="home">
+    {% include navigation.html %}
+
+    <section class="container">
+      <div class="header-section">
+        <div class="header-title">
+          <img class="avatar" src="{{ "/assets/images/sephora.png" | relative_url }}" alt="Sephora Lillian" />
+
+          <h2>
+            Tornando <br />
+            <strong>organizações</strong> <br />
+            mais <strong>eficientes</strong>
+          </h2>
+        </div>
+
+        <section class="feature-img">
+          <img src="{{ "/assets/images/office.svg" | relative_url }}" alt="Ilustração de escritório" />
+        </section>
+      </div>
+    </section>
+
+    {% include about.html %}
+
+    <section class="feature-img-section">
+      <img src="{{ "/assets/images/office.svg" | relative_url }}" alt="Ilustração de escritório" />
+    </section>
+  </body>
+</html>
